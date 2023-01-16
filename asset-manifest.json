@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.87e8bbd0.css",
+    "main.css": "./static/css/main.20996f4c.css",
     "main.js": "./static/js/main.abcaaac5.js",
     "static/media/IMG_8946-r.png": "./static/media/IMG_8946-r.693e44fc9de9474cb109.png",
     "static/media/spir-3.JPG": "./static/media/spir-3.70e4b04869602d03d91c.JPG",
@@ -16,11 +16,11 @@
     "static/media/datatonism-screenshot.png": "./static/media/datatonism-screenshot.2afc34c2c56fa4650626.png",
     "static/media/about-small-bg.png": "./static/media/about-small-bg.355115cb35bc859c4643.png",
     "index.html": "./index.html",
-    "main.87e8bbd0.css.map": "./static/css/main.87e8bbd0.css.map",
+    "main.20996f4c.css.map": "./static/css/main.20996f4c.css.map",
     "main.abcaaac5.js.map": "./static/js/main.abcaaac5.js.map"
   },
   "entrypoints": [
-    "static/css/main.87e8bbd0.css",
+    "static/css/main.20996f4c.css",
     "static/js/main.abcaaac5.js"
   ]
 }
