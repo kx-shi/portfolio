@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.20996f4c.css",
-    "main.js": "./static/js/main.abcaaac5.js",
+    "main.js": "./static/js/main.8989ceb8.js",
     "static/media/IMG_8946-r.png": "./static/media/IMG_8946-r.693e44fc9de9474cb109.png",
     "static/media/spir-3.JPG": "./static/media/spir-3.70e4b04869602d03d91c.JPG",
     "static/media/spir-wip.JPG": "./static/media/spir-wip.9bb59bf0834c039960e8.JPG",
@@ -13,14 +13,16 @@
     "static/media/spir-thumbnail.png": "./static/media/spir-thumbnail.d17c0fa7febff70180b6.png",
     "static/media/steammind-thumbnail.png": "./static/media/steammind-thumbnail.a2f66c5ce7ece2469e56.png",
     "static/media/header-small.png": "./static/media/header-small.948eac65f3cdfe54662e.png",
+    "static/media/spotify-cover-generator.png": "./static/media/spotify-cover-generator.fad66793a88404cc9199.png",
     "static/media/datatonism-screenshot.png": "./static/media/datatonism-screenshot.2afc34c2c56fa4650626.png",
+    "static/media/spotify-gen-thumbnail.png": "./static/media/spotify-gen-thumbnail.017354489142e49f8d31.png",
     "static/media/about-small-bg.png": "./static/media/about-small-bg.355115cb35bc859c4643.png",
     "index.html": "./index.html",
     "main.20996f4c.css.map": "./static/css/main.20996f4c.css.map",
-    "main.abcaaac5.js.map": "./static/js/main.abcaaac5.js.map"
+    "main.8989ceb8.js.map": "./static/js/main.8989ceb8.js.map"
   },
   "entrypoints": [
     "static/css/main.20996f4c.css",
-    "static/js/main.abcaaac5.js"
+    "static/js/main.8989ceb8.js"
   ]
 }
