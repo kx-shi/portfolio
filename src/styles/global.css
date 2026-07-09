@@ -1,0 +1,43 @@
+html {
+    background-color: #00050D;
+    color: #fff;
+}
+
+html.light {
+    background-color: #f1f1f1;
+    color: #00050D;
+}
+
+#content {
+    padding: 3em;
+}
+
+.tech li {
+    padding: 0.3em 1em;
+    background-color: #3c5783;
+    border-radius: 1em;
+}
+
+html.light .tech li {
+  background-color: #FF9538;
+}
+
+html.light .starfield p {
+    color: #9c9c9c;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px;
+    justify-content: center;
+    align-items: left;
+}
+
+.section-label {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+}

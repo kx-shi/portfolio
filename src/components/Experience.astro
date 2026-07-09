@@ -1,0 +1,82 @@
+---
+const experience = [
+    {
+    title: "Systems Developer",
+    company: "Umeå Kommun",
+    startDate: "August 2024",
+    endDate: "Present",
+    description: `Developing and managing applications that are used by the internal organization as well as citizen-facing applications.`,
+    tech: [".NET", "PowerShell", "Azure DevOps", "Typescript", "C#"]
+    },
+    {
+    title: "Software Developer",
+    company: "HaleyTek",
+    startDate: "April 2023",
+    endDate: "June 2024",
+    description: `Prepared an environment connected to the hardware to be able to develop and run automated audio-tests.
+    Wrote end-to-end tests to ensure compliance was met.`,
+    tech: ["C++", "Python", "PyTest"]
+    },
+    {
+    title: "IT Support",
+    company: "KTH Royal Institute of Technology",
+    startDate: "April 2021",
+    endDate: "April 2021",
+    description: "First line support, provided technical support and handled IT-related problems.",
+    tech: ["AD", "Microsoft O365"]
+    },
+    {
+    title: "Teaching Assistant",
+    company: "KTH Royal Institute of Technology",
+    startDate: "September 2020",
+    endDate: "April 2022",
+    description: "Supported students in programming assignments, held laboratory sessions, and created study content.",
+    tech: ["Python", "SuperCollider", "Matlab", "Pure Data"]
+    }
+];
+---
+
+<div id="experience" class="container">
+    <h1 class="section-label">Experience</h1>
+    {experience.map((ex) => (
+        <div class="exp">
+            <h3>{ex.startDate} - {ex.endDate}</h3>
+            <h2>{ex.title} · {ex.company}</h2>
+            <p>{ex.description}</p>
+            <ul class="tech">
+                {ex.tech.map((t) => (
+                    <li>{t}</li>
+                ))}
+            </ul>
+        </div>
+    ))}
+</div>
+
+<style>
+    h3, p {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+    }
+
+    h3 {
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    .exp {
+        margin-bottom: 3em;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 5px;
+        list-style-type: none;
+        font-family: monospace;
+    }
+</style>
